@@ -1,3 +1,5 @@
+import request from 'request'
+
 request.post({
   url : 'https://api.kik.com/v1/config',
   auth: {
@@ -18,3 +20,5 @@ request.post({
     }
   }
 })
+
+console.log('setup')

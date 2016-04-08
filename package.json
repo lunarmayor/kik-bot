@@ -6,7 +6,8 @@
   "scripts": {
     "prestart": "babel bot -d dist",
     "start": "node dist/index.js",
-    "dev": "nodemon bot/index.js --exec babel-node"
+    "dev": "nodemon bot/index.js --exec babel-node",
+    "setup": "babel-node setup.js"
   },
   "author": "Michael Morrissey",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "lodash": "^4.7.0",
     "node-wit": "^2.0.0",
     "request": "^2.70.0",
-    "wit-node": "0.0.5"
+    "wit-node": "0.0.5",
+    "witbot": "^2.1.0"
   }
 }
